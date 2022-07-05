@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 )
@@ -11,8 +12,12 @@ type Log struct {
 }
 
 func New(debug bool) *Log {
+	var (
+		buf    bytes.Buffer
+		logger = log.New(&buf, "logger: ", log.Lshortfile)
+	)
 	return &Log{
-		logger:  log.Default(),
+		logger:  logger,
 		isDebug: debug,
 	}
 }
