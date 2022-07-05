@@ -1,3 +1,3 @@
-module github.com/amplitude/experiment-go-server
+module github.com/nishantmor/experiment-go-server
 
 go 1.12

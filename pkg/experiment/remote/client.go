@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/amplitude/experiment-go-server/pkg/experiment"
+	"github.com/nishantmor/experiment-go-server/pkg/experiment"
 
-	"github.com/amplitude/experiment-go-server/internal/logger"
+	"github.com/nishantmor/experiment-go-server/internal/logger"
 )
 
 var client *Client

@@ -7,9 +7,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/amplitude/experiment-go-server/pkg/experiment"
-	"github.com/amplitude/experiment-go-server/pkg/experiment/local"
-	"github.com/amplitude/experiment-go-server/pkg/experiment/remote"
+	"github.com/nishantmor/experiment-go-server/pkg/experiment"
+	"github.com/nishantmor/experiment-go-server/pkg/experiment/local"
+	"github.com/nishantmor/experiment-go-server/pkg/experiment/remote"
 )
 
 func main() {
